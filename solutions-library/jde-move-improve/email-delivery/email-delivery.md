@@ -1,33 +1,32 @@
-# Load Data into an Instance
+# Set up Email Delivery from JDE Trial Instance
 
 ## Introduction
 
-*Describe the lab in one or two sentences, for example:* This lab walks you through the steps to ...
+In this lab, we will set up Email Delivery through OCI to enable our JDE Trial Edition instance to become an outbound email server.
 
-Estimated Lab Time: n minutes
+Email Delivery provides a highly scalable, cost effective, and reliable way to send email from your applications.  When you use Email Delivery, OCI becomes your outbound email server. If you have an existing email server, you can keep it and configure it to send through Email Delivery. The Email Delivery service will take care of the feedback loops and platform reputation automatically.
+
+Estimated Lab Time: 20 minutes
 
 ### About Product/Technology
-Enter background information here..
+
+The process includes creating a new user on OCI, generating SMTP Credentials, creating an approved sender, and configuring Postfix on the JDE Instance
 
 ### Objectives
 
-*List objectives for the lab - if this is the intro lab, list objectives for the workshop*
+To deploy set up Email Delivery, in this lab, you will:
 
-In this lab, you will:
-* Objective 1
-* Objective 2
-* Objective 3
+*   Provision Trial Edition from OCI Marketplace
+*   Set up PuTTY to Access OCI Instance
+*   Perform First-Time Configuration of Trial Edition
+*   Connect to JDE Resources
 
 ### Prerequisites
 
-*Use this section to describe any prerequisites, including Oracle Cloud accounts, set up requirements, etc.*
+* JDE Trial Edition configured and running
+* OCI Account
 
-* An Oracle Free Tier, Always Free, Paid or LiveLabs Cloud Account
-* Item no 2 with url - [URL Text](https://www.oracle.com).
-
-*This is the "fold" - below items are collapsed by default*
-
-## **STEP 1**: title
+## **STEP 1**: Create a New User
 
 Step 1 opening paragraph.
 

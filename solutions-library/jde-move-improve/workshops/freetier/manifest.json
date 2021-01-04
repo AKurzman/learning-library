@@ -31,5 +31,10 @@
             "description": "Teardown Your JDE Trial Edition Environment",
             "filename": "../../teardown/teardown.md"
         }
+        {
+            "title": "Optional: Set up Email Delivery",
+            "description": "Set up Email Delivery from JDE Trial Instance",
+            "filename": "../../email-delivery/email-delivery.md"
+        }
     ]
 }
